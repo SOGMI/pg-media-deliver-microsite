@@ -1,3 +1,4 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Prophetic Gathering 2018 Media"
+enableRobotsTXT = true
