@@ -6755,25 +6755,26 @@ body {
   background-repeat: repeat;
   background-size: 128px; }
 
-header {
+header.section {
   background: white;
-  padding: 15em 0;
+  padding-top: 7em;
+  padding-bottom: 7em;
   border-bottom: 1px solid #e7e7e7;
   background-image: url(/conference-photo-1.jpg);
   background-position: center;
   background-size: cover;
   position: relative; }
-  header .container {
+  header.section .container {
     position: relative;
     z-index: 1; }
-  header .title {
+  header.section .title {
     font-size: 4em;
     font-weight: bold;
     color: white; }
-  header .subtitle {
+  header.section .subtitle {
     font-size: 2em;
     color: white; }
-  header .scrollIcon {
+  header.section .scrollIcon {
     opacity: 0.6;
     color: white;
     font-size: 1.2em;
@@ -6782,7 +6783,7 @@ header {
     border-radius: 0.5em;
     margin-top: 0.5em;
     display: inline-block; }
-  header .scrollIcon:hover {
+  header.section .scrollIcon:hover {
     opacity: 1; }
 
 audio {
