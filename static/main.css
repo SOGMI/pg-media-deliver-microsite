@@ -6773,6 +6773,17 @@ header {
   header .subtitle {
     font-size: 2em;
     color: white; }
+  header .scrollIcon {
+    opacity: 0.6;
+    color: white;
+    font-size: 1.2em;
+    border: 1px solid white;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    margin-top: 0.5em;
+    display: inline-block; }
+  header .scrollIcon:hover {
+    opacity: 1; }
 
 audio {
   min-height: 50px;
