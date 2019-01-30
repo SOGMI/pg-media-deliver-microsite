@@ -6785,6 +6785,11 @@ header.section {
     display: inline-block; }
   header.section .scrollIcon:hover {
     opacity: 1; }
+  @media (max-width: 700px) {
+    header.section .title {
+      font-size: 3em; }
+    header.section .subtitle {
+      font-size: 1.5em; } }
 
 audio {
   min-height: 50px;
